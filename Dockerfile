@@ -9,12 +9,12 @@ RUN rpm --import http://nginx.org/keys/nginx_signing.key && \
     yum -q -y install ca-certificates nginx-${NGINX_VERSION} gettext && \
     yum -q clean all
 
-COPY ./nginx.conf /etx/nginx/nginx.conf
-COPY ./odoo.conf /etc/nginx/conf.d/odoo.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./odoo.conf /etc/nginx/conf.d/default.conf
 
-VOLUME /ete/nginx/
+VOLUME /etc/nginx/
 
 EXPOSE 80 443
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "&"]
 
