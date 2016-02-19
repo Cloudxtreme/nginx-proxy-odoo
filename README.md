@@ -1,4 +1,4 @@
-[![](https://badge.imagelayers.io/bbania/nginx-proxy-odoo:latest.svg)](https://imagelayers.io/?images=bbania/nginx-proxy-odoo:latest 'Get your own badge on imagelayers.io')
+[![](https://badge.imagelayers.io/bbania/odoo-nginx:latest.svg)](https://imagelayers.io/?images=bbania/odoo-nginx:latest 'Get your own badge on imagelayers.io')
 
 # Nginx proxy for Odoo
 
