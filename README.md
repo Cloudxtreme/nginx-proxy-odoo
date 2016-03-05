@@ -2,7 +2,7 @@
 
 # Nginx proxy for Odoo
 
-This image is built to serve as a proxy for [Odoo](https://hub.docker.com/r/bbania/odoo-centos/) and to be deployed as a Marketplace installation on [Layershift Jelastic PaaS]((https://app.j.layershift.co.uk) platform.
+This image is built to serve as a proxy for [Odoo](https://hub.docker.com/r/bbania/odoo-centos/) and to be deployed as a Marketplace installation on [Layershift Jelastic PaaS](https://app.j.layershift.co.uk) platform.
 
 ## Nginx version
 
