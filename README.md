@@ -14,7 +14,7 @@ NGINX_VERSION 1.8.1-1.el7.ngx
 
 ## Base Docker image
 
-[bbania/centos:base](https://hub.docker.com/r/bbania/centos/)
+[bbania/nginx:latest](https://hub.docker.com/r/bbania/nginx/)
 
 # Installation
 
