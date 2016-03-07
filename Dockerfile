@@ -1,8 +1,8 @@
 FROM bbania/nginx:latest
 MAINTAINER "Bart Bania" <contact@bartbania.com>
 
-COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY ./odoo.conf /etc/nginx/conf.d/default.conf
+COPY ./configs/nginx.conf /etc/nginx/nginx.conf
+COPY ./configs/odoo.conf /etc/nginx/conf.d/default.conf
 
 VOLUME /etc/nginx/
 
